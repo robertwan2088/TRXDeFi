@@ -1,6 +1,6 @@
 {
 	"text": {
-		"copySuccessful": "Kopyalama Başarılı",
+		"copySuccessful": "Kopyalama Başarılı.",
 		"notOpenYet": "Henüz Açık Değil",
 		"home_tip": "Basit, hızlı ve en iyi piyasa fiyatlarıyla işlem yapın",
 		"exchange_quantity": "Değiştirilecek Miktar",
