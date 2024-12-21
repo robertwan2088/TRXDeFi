@@ -1,5 +1,5 @@
 ## 查詢價格接口
-查詢平颱所有類型價格
+查詢平台所有類型價格
 
 ## 接口調用
 ### `POST` `/openapi/tron/energy/allPrice`
