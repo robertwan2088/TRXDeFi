@@ -1,15 +1,20 @@
-## 查詢價格接口
+# 查詢價格
+
+### 查詢價格接口
+
 查詢平台所有類型價格
 
-## 接口調用
-### `POST` `/openapi/tron/energy/allPrice`
+### 接口調用
+
+#### `POST` `/openapi/tron/energy/allPrice`
+
 **以下參數帶`*`字段爲必填，不帶`*`號爲選填**
 
-Request Body：
-**空**
+Request Body： **空**
 
 Response Body：
-```JSON
+
+```json
 {
   "code": 0,
   "msg": "success",
@@ -42,14 +47,15 @@ Response Body：
 }
 ```
 
-## 調用示例
+### 調用示例
+
 ```bash
 curl --silent --location --request POST ''https://app-api.trxdefi.ai/openapi/tron/energy/allPrice'' \
 --data ''''
 ```
 
-## Postman 示例
+### Postman 示例
 
-![energy_all_price.png](img/energy_all_price.png)
+！\[图片]\([https://github.com/robertwan2088/TRXDeFi/blob/main/readme/img/energy\_all\_price.png](img/energy_all_price.png))
 
-
+![energy\_all\_price.png](img/energy_all_price.png)
