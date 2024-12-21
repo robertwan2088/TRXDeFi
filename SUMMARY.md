@@ -1,17 +1,12 @@
 # Table of contents
 
-* [TRXDEFI OPENAPI DOC](tw/README.md)
-
-* [一、接口说明](tw/description/README.md)
-* 二、接口
-  * [查询平台所有类型价格](tw/api/all/README.md)
-  * [查询用户余额和价格](tw/api/user/README.md)
-  * [自动激活+能量下单](tw/api/automatic/README.md)
-  * [加笔数托管订单](tw/api/escrow/README.md)
-  * [购买笔数开关开启](tw/api/number/README.md)
-  * [结束笔数订单](tw/api/end/README.md)
-  * [笔数订单生命周期回调接口](tw/api/cycle/README.md)
-
-
-
-
+* [TRXDEFI OPENAPI DOC](README.md)
+* [Basic Description](basic-description.md)
+* [Check price](check-price.md)
+* [Check balance](check-balance.md)
+* [Start by number of transactions](start-by-number-of-transactions.md)
+* [End by number of transactions](end-by-number-of-transactions.md)
+* [Order by number of transactions](order-by-number-of-transactions.md)
+* [Order callback by number of transactions](order-callback-by-number-of-transactions.md)
+* [Energy order](energy-order.md)
+* [Error code](error-code.md)
