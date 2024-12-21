@@ -52,4 +52,4 @@ curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/auto/a
 
 ## Postman 示例
 
-![img.png](../../img/auto_add.png)
+![img.png](../../readme/img/auto_add.png)
