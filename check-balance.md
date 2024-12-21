@@ -1,15 +1,15 @@
-## 查询余额接口
-查询用户余额和价格
+## Query balance interface
+Query user balance and price
 
-## 接口调用
+## Interface call
 ### `POST` `/openapi/tron/energy/user/config`
-**以下参数带`*`字段为必填，不带`*`号为选填**
+**The following parameters with `*` are required, and those without `*` are optional**
 
 Request Body
 
 | Name                                   | Type   | Description    |
 |----------------------------------------|--------|----------------|
-| apiKey<span style="color:red">*</span> | String | 用户申请的apiKey    |
+| apiKey<span style="color:red">*</span> | String | apiKey applied by the user    |
 
 
 Response Body
@@ -48,7 +48,7 @@ Response Body
 }
 ```
 
-## 调用示例
+## Call example
 ```bash
 curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/user/config' \
 --header 'Content-Type: application/json' \
@@ -58,7 +58,7 @@ curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/user/co
 
 ```
 
-## Postman 示例
+## Postman Example
 
 ![user_config.png](img/user_config.png)
 
