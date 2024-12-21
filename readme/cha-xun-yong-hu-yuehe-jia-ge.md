@@ -60,5 +60,5 @@ curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/user/c
 
 ## Postman 示例
 
-![user_config.png](img/user_config.png)
+![user_config.png](https://raw.githubusercontent.com/robertwan2088/TRXDeFi/refs/heads/main/readme/img/user_config.png)
 
