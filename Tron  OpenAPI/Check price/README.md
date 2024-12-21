@@ -50,4 +50,4 @@ curl --silent --location --request POST ''https://app-api.trxdefi.ai/openapi/tro
 
 ## Postman 示例
 
-![energy_all_price.png](../../img/energy_all_price.png)
+![energy_all_price.png](img/energy_all_price.png)

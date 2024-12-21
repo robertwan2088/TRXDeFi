@@ -1,6 +1,3 @@
----
-description: 欢迎使用TRXDeFi接文口档。这个文档主要是用来说明部分接口中要注意的一些事项以及更详细的说明，包括具体接口入参、出参等。
----
 
-# TRXDeFi 接口文档
-
+![](../../.[gitbook/assets/become-a-chef-header](https://github.com/user-attachments/assets/b22c8db9-0200-403d-ab39-e2793c3dfb8a).png)
+欢迎使用TRXDeFi接口文档！

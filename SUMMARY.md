@@ -1,12 +1,17 @@
 # Table of contents
 
-* [TRXDeFi 接口文档](README.md)
-  * [接口説明](readme/yi-jie-kou-shuo-ming.md)
-  * [查詢價格](readme/cha-xun-jia-ge.md)
-  * [查詢餘額](readme/cha-xun-yong-hu-yuehe-jia-ge.md)
-  * [筆數下單](readme/bi-shu-ding-dan-sheng-ming-zhou-qi-hui-tiao-jie-kou.md)
-  * [筆數開啟](readme/gou-mai-bi-shu-kai-guan-kai-qi.md)
-  * [筆數結束](readme/jie-shu-bi-shu-ding-dan.md)
-  * [筆數訂單回調](readme/jia-bi-shu-tuo-guan-ding-dan.md)
-  * [能量下單](readme/zi-dong-ji-huo-+-neng-liang-xia-dan.md)
-  * [錯誤码](readme/cuo-wu-ma.md)
+* [TRXDEFI OPENAPI DOC](tw/README.md)
+
+* [一、接口说明](tw/description/README.md)
+* 二、接口
+  * [查询平台所有类型价格](tw/api/all/README.md)
+  * [查询用户余额和价格](tw/api/user/README.md)
+  * [自动激活+能量下单](tw/api/automatic/README.md)
+  * [加笔数托管订单](tw/api/escrow/README.md)
+  * [购买笔数开关开启](tw/api/number/README.md)
+  * [结束笔数订单](tw/api/end/README.md)
+  * [笔数订单生命周期回调接口](tw/api/cycle/README.md)
+
+
+
+
