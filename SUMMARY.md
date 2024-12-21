@@ -3,7 +3,7 @@
 * [TRXDeFi 接口文档](README.md)
 * [一、接口说明](yi-jie-kou-shuo-ming.md)
 * [二、接口](er-jie-kou/README.md)
-  * [查询平台所有类型价格](er-jie-kou/cha-xun-ping-tai-suo-you-lei-xing-jia-ge.md)
+  * [查詢價格](TronAPI接口/查询价格/README.md)
   * [查询用户余额和价格](er-jie-kou/cha-xun-yong-hu-yuehe-jia-ge.md)
   * [自动激活+能量下单](er-jie-kou/zi-dong-ji-huo-+-neng-liang-xia-dan.md)
   * [加笔数托管订单](er-jie-kou/jia-bi-shu-tuo-guan-ding-dan.md)
