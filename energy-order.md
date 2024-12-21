@@ -43,5 +43,5 @@ curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/order/b
  "orderNotes":"1" }' 
 ``` 
 ## Postman Example
- ![img.png](img/batchPay.png)
+ ![img.png](https://raw.githubusercontent.com/robertwan2088/TRXDeFi/refs/heads/main/readme/img/batchPay.png)
 

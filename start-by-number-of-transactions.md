@@ -32,6 +32,6 @@ curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/auto/sw
 }'
 ```
 ## Postman Example 
-![img.png](img/auto_switch.png)
+![img.png](https://raw.githubusercontent.com/robertwan2088/TRXDeFi/refs/heads/main/readme/img/auto_switch.png)
 
 
