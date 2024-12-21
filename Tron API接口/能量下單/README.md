@@ -49,4 +49,4 @@ curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/order/
 
 ## Postman 示例
 
-![img.png](img/batchPay.png)
+![img.png](../../img/batchPay.png)
