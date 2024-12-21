@@ -19,11 +19,11 @@ Response Body
   "msg": "success",
   "data": {
     "userInfo": {
-      "balance": 2790.785, //账户余额
-      "state": 1, //用户状态
-      "username": "" //账户名称
+      "balance": 2790.785, //Account balance
+      "state": 1, //User status
+      "username": "" //Account name
     },
-    "payConfig": { //价格配置
+    "payConfig": { //Price configuration
       "energy": {
         "canPay": 1,
         "limit": {
