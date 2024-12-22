@@ -9,4 +9,8 @@
 * [Order by number of transactions](order-by-number-of-transactions.md)
 * [Order callback by number of transactions](order-callback-by-number-of-transactions.md)
 * [Energy order](energy-order.md)
+* [Address activation](address-activation.md)
+* [Asynchronous callback of order result](asynchronous-callback-of-order-result.md)
+* [Order query](order-query.md)
+* [Collection](collection.md)
 * [Error code](error-code.md)
