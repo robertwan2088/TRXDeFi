@@ -10,7 +10,6 @@
   * [筆數訂單回調](readme/jia-bi-shu-tuo-guan-ding-dan.md)
   * [能量下單](readme/zi-dong-ji-huo-+-neng-liang-xia-dan.md)
   * [地址激活](readme/di-zhi-ji-huo.md)
-  * [下單結果異步回调](readme/xia-dan-jie-guo-yi-bu-hui-tiao.md)
   * [歸集](readme/gui-ji.md)
   * [訂單查询](readme/ding-dan-cha-xun.md)
   * [錯誤码](readme/cuo-wu-ma.md)
