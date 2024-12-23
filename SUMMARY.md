@@ -7,7 +7,7 @@
   * [筆數下單](readme/bi-shu-ding-dan-sheng-ming-zhou-qi-hui-tiao-jie-kou.md)
   * [筆數開啟](readme/gou-mai-bi-shu-kai-guan-kai-qi.md)
   * [筆數結束](readme/jie-shu-bi-shu-ding-dan.md)
-  * [筆數訂單回調](readme/jia-bi-shu-tuo-guan-ding-dan.md)
+  * [筆數訂單](readme/jia-bi-shu-tuo-guan-ding-dan.md)
   * [能量下單](readme/zi-dong-ji-huo-+-neng-liang-xia-dan.md)
   * [地址激活](readme/di-zhi-ji-huo.md)
   * [歸集](readme/gui-ji.md)
