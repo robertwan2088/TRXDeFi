@@ -19,7 +19,7 @@ Request Body
 | recharge<span style="color:red">*</span>            | Integer | 滯留計費標識。1（滯留計費），0（委托計費）                    |
 | state<span style="color:red">*</span>               | Integer | 訂單狀態。2（刪除）1（委托中），0（停止）                    |
 | autoType<span style="color:red">*</span>            | Integer | 智能托管類型：0（筆數），1：（智能）。                      |
-| payment<span style="color:red">*</span>             | Integer | 1（購買筆數） ，0（其他場景）                          |
+| payment<span style="color:red">*</span>             | Integer | 0: 是帳號代扣， 1: 按照筆數一次性扣款                          |
 | maxDelegateNums<span style="color:red">*</span>     | Integer | 最大委托筆數                                    |
 | totalDelegateNums<span style="color:red">*</span>   | Integer | 最大委托筆數                                    |
 | totalDelegateNums<span style="color:red">*</span>   | Integer | 累計已委托筆數                                   |
@@ -30,7 +30,6 @@ Request Body
 | activeHash                                          | String  | 如果有激活，激活的txid [12/22新增]                   |
 | bandwidthHash                                       | String  | 如果有帶寬，帶寬的txid [12/22新增]                   |
 | resourceType                                        | Integer  | 0:能量,1: 带宽 [12/22新增]                      |
-| status                                              | Integer | 狀態 1成功，-1失敗 [12/22新增]                     |
 | source                                              | Integer | 0:collect/1:api/2:count_delegate[12/22新增] |
 | sign                                                | String  | 回調數據的籤名信息。方法：md5();籤名驗証的數據排除sign字段項       |
 
