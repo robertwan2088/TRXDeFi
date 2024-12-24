@@ -12,7 +12,7 @@ Request Body
 | apiKey<span style="color:red">*</span>          | String  | 用戶申請的apiKey      |
 | resType<span style="color:red">*</span>         | String  | 資源類型：默認填冩 "ENERGY" |
 | receiveAddress<span style="color:red">*</span>  | String  | 能量接收地址           |
-| payment<span style="color:red">*</span>         | Integer | 默認填冩1，用戶賬號扣款     |
+| payment<span style="color:red">*</span>         | Integer | 0: 是帳號代扣， 1: 按照筆數一次性扣款     |
 | maxDelegateNums<span style="color:red">*</span> | Integer  | 購買能量筆數           |
 | orderNotes                                      | String  | 訂單備注             |
 
