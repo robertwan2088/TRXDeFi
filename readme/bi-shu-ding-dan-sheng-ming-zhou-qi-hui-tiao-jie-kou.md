@@ -15,7 +15,7 @@ Request Body
 | outTradeNo<span style="color:red">*</span>          | String  | 外部訂單號[12/22新增]                         |
 | receiveAddress<span style="color:red">*</span>      | String  | 觸髮的接收資源地址                              |
 | residue<span style="color:red">*</span>             | Integer | 剩餘筆數                                   |
-| triggerTransactionId                                | String  | 觸髮委托的USDT交易HASH                        |
+| triggerTransactionId                                | String  | 觸發委託的USDT交易HASH，筆數接口調用成功後，第一次會返回triggerFirst。     |
 | recharge<span style="color:red">*</span>            | Integer | 滯留計費標識。1（滯留計費），0（委托計費）                 |
 | state<span style="color:red">*</span>               | Integer | 訂單狀態。2（刪除）1（委托中），0（停止）                 |
 | autoType<span style="color:red">*</span>            | Integer | 智能托管類型：0（筆數），1：（智能）。                   |
