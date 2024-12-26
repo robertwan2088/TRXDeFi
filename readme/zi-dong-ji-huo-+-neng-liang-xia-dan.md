@@ -13,6 +13,7 @@ Request Body
 | payNums<span style="color:red">*</span>        | Long    | 能量數量          |
 | rentTime<span style="color:red">*</span>       | Integer | 租賃時長，最小1小時    |
 | receiveAddress<span style="color:red">*</span> | String  | 能量接受地址        |
+| outTradeNo                                     | String  | 外部訂單號，異步回調時返回 |
 | orderNotes                                     | String  | 訂單備注          |
 
 
