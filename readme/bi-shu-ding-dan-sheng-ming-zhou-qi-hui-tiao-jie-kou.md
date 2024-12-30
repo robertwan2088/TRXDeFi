@@ -24,7 +24,7 @@ Request Body
 | totalDelegateNums<span style="color:red">*</span>   | Integer | 累計已委托筆數                                           |
 | detentionChargeTime<span style="color:red">*</span> | Integer | 筆數模式下委托滯留天數                                       |
 | energyNums                                          | Long    | 智能合約消耗的能量數。滯留或首筆代理該值爲0                            |
-| orderMoney                                          | Decimal | 賬號代扣每筆扣費，單位trx                                    |
+| orderMoney                                          | Long | 賬號代扣每筆扣費，單位sun                                    |
 | hash                                                | String  | 代理能量hash                                          |
 | activeHash                                          | String  | 如果有激活，激活的txid [12/22新增]                           |
 | bandwidthHash                                       | String  | 如果有帶寬，帶寬的txid [12/22新增]                           |
@@ -61,7 +61,7 @@ curl --silent --location ''您提供的回調地址'' \
 "hash":"", 
 "sign":"", 
 "energyNums":"65000", 
-"orderMoney":"1.96" 
+"orderMoney":"44000000" 
 }''
 
 ```
