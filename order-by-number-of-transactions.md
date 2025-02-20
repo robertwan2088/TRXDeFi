@@ -7,14 +7,14 @@ Order interface, if the address is not activated, the address will be automatica
 
 Request Body
 
-| Name | Type | Description |
-|-------------------------------------------------|----------|------------------|
-| apiKey<span style="color:red">*</span> | String | apiKey applied by the user |
-| resType<span style="color:red">*</span> | String | Resource type: default "ENERGY" |
-| receiveAddress<span style="color:red">*</span> | String | Energy receiving address |
-| payment<span style="color:red">*</span> | Integer | default 1, user account deduction |
-| maxDelegateNums<span style="color:red">*</span> | Integer | Number of energy purchases |
-| orderNotes | String | Order notes |
+| Name                                             | Type      | Description                                                                                                                            |
+|--------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------|
+| apiKey<span style="color:red">*</span>           | String    | apiKey applied by the user                                                                                                             |
+| resType<span style="color:red">*</span>          | String    | Resource type: default "ENERGY"                                                                                                        |
+| receiveAddress<span style="color:red">*</span>   | String    | Energy receiving address                                                                                                               |
+| payment<span style="color:red">*</span>          | Integer   | 0: Deduction on a per-time basis,<br/>One energy order will be deducted once <br/> 1: One-time deduction based on the number of orders |
+| maxDelegateNums<span style="color:red">*</span>  | Integer   | Number of energy purchases                                                                                                             |
+| orderNotes                                       | String    | Order notes                                                                                                                            |
 
 Response Body
 ```JSON
