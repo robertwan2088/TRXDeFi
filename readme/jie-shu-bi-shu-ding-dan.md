@@ -29,12 +29,12 @@ Response Body
 
 ## 調用示例
 ```bash
-curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/auto/over'' \
---header ''Content-Type: application/json'' \
---data ''{
+curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/auto/over' \
+--header 'Content-Type: application/json' \
+--data '{
 "apiKey":"c357ef19-b747-4312-b02a-987c9078cd6d",
 "orderId":"20241125105934188500"
-}''
+}'
 
 
 ```

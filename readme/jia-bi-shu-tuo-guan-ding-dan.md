@@ -36,16 +36,16 @@ Response Body
 
 ## 調用示例
 ```bash
-curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/auto/add'' \
---header ''Content-Type: application/json'' \
---data ''{
+curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/auto/add' \
+--header 'Content-Type: application/json' \
+--data '{
 "apiKey":"c357ef19-b747-4312-b02a-987c9078cd6d",
 "resType":"ENERGY",
 "receiveAddress":"TU47QEb39dyqrdqFr5VSXkgiUHAof9FFAA",
 "payment":1,
 "maxDelegateNums":2,
 "orderNotes":"1221"
-}''
+}'
 
 
 ```

@@ -44,9 +44,9 @@ Response Body（**HTTP STATUS=200**：表示通知成功）
 
 ## 調用示例
 ```bash
-curl --silent --location ''您提供的回調地址'' \
---header ''Content-Type: application/json'' \
---data ''{
+curl --silent --location '您提供的回調地址' \
+--header 'Content-Type: application/json' \
+--data '{
 "orderId": "201411301111", 
 "receiveAddress":"",
 "residue":6, 
@@ -62,7 +62,7 @@ curl --silent --location ''您提供的回調地址'' \
 "sign":"", 
 "energyNums":"65000", 
 "orderMoney":"44000000" 
-}''
+}'
 
 ```
 

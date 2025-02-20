@@ -50,8 +50,8 @@ Response Body：
 ### 調用示例
 
 ```bash
-curl --silent --location --request POST ''https://app-api.trxdefi.ai/openapi/tron/energy/allPrice'' \
---data ''''
+curl --silent --location --request POST 'https://app-api.trxdefi.ai/openapi/tron/energy/allPrice' \
+--data ''
 ```
 
 ### Postman 示例

@@ -50,11 +50,9 @@ Response Body
 
 ## 調用示例
 ```bash
-curl --silent --location ''https://app-api.trxdefi.ai/openapi/tron/energy/user/config'' \
---header ''Content-Type: application/json'' \
---data ''{
-   "apiKey": "11111"
-}''
+curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/user/config' \
+--header 'Content-Type: application/json' \
+--data '{"apiKey": "11111"}'
 
 ```
 
